@@ -1,0 +1,421 @@
+* {
+    margin: auto;
+    /* padding: 2em; */
+    font-size: 16pt
+}
+
+
+.container {
+    display: grid;
+    padding: 2em;
+    /* margin: auto; */
+    grid-template-columns: auto auto auto;
+    /* padding: 1em; */
+    /* grid-auto-columns: repeat(4, 10px);
+    grid-auto-rows: repeat(3, 20px); */
+}
+
+/* Hello Blue Button */
+.blue-button {
+    height: 10px;
+    width: 100px;
+    padding: 2em;
+    background-color: #008fc1;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+    transition: 1000ms;
+    
+
+
+}
+
+.blue-button:hover{
+    background-color: transparent;
+    border: 3px solid #008fc1;
+    color: #008fc1;
+}
+
+/* Hello Border Button */
+
+.line-button {
+    height: 10px;
+    width: 100px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    transition: 1000ms;
+    text-align: center;
+    padding: 2em;
+}
+
+
+.line-button:hover {
+    border-top: 3px solid #008fc1;
+    border-bottom: 3px solid #008fc1;
+    letter-spacing: 10px;
+
+}
+
+/* HELLO White Button */
+
+.white-button{
+    height: 10px;
+    width: 100px;
+    padding: 2em;
+    background-color: transparent;
+    border: 3px solid #008fc1;
+    color: #008fc1;
+    border-radius: 25px;
+    text-align: center;
+    transition: 2000ms;
+
+}
+
+.white-button:hover {
+    background-color: #008fc1;
+    color: white;
+
+
+}
+
+/* Hamburger 2 */
+.a {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    background-color: white;
+    border: 3px solid black;
+    
+    transition: 1000ms;
+}
+
+
+.a > div:nth-child(1){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 20px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.a > div:nth-child(2){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 40px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.a > div:nth-child(3){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 60px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.a:hover{
+    background-color: black;
+}
+
+
+.a:hover > div:nth-child(1){
+    height: 10px;
+    width: 80px;
+    background-color: white;
+    transform: translate3d(0, 50px, 0) rotate(45deg);
+    position: relative;
+}
+
+.a:hover > div:nth-child(2){
+    background-color: transparent;
+}
+
+.a:hover > div:nth-child(3){
+    height: 10px;
+    width: 80px;
+    background-color: white;
+    transform: translate3d(0, 30px, 0) rotate(-45deg);
+    position: relative;
+}
+
+
+
+/* Hamburger 3 */
+.arrow {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    background-color: white;
+    border: 3px solid black;
+    
+    transition: 1000ms;
+}
+
+.arrow > div:nth-child(1){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 20px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.arrow > div:nth-child(2){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 40px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.arrow > div:nth-child(3){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 60px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.arrow:hover{
+    background-color: black;
+}
+
+
+.arrow:hover > div:nth-child(1){
+    height: 10px;
+    width: 40px;
+    background-color: white;
+    transform: translate3d(-4px, 35px, 0) rotate(-45deg);
+    position: relative;
+}
+
+.arrow:hover > div:nth-child(2){
+    background-color: white;
+    width: 60px;
+    height: 12px;
+    transform: translate3d(8px, 40px, 0);
+
+}
+
+.arrow:hover > div:nth-child(3){
+    height: 10px;
+    width: 40px;
+    background-color: white;
+    transform: translate3d(-4px, 45px, 0) rotate(45deg);
+    position: relative;
+}
+
+
+/* Hamburger 4 */
+
+.hamburger-4 {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    background-color: white;
+    border: 3px solid black;
+    
+    transition: 1000ms;
+}
+
+
+.hamburger-4 > div:nth-child(1){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 20px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.hamburger-4 > div:nth-child(2){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 40px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.hamburger-4 > div:nth-child(3){
+    height: 10px;
+    width: 80px;
+    background-color: black;
+    transform: translate3d(0, 60px, 0);
+    transition: 1000ms;
+    position: relative;
+}
+
+.hamburger-4:hover{
+    background-color: black;
+}
+
+
+.hamburger-4:hover > div:nth-child(1){
+    height: 10px;
+    width: 80px;
+    background-color: white;
+    transform: translate3d(0, 50px, 0) rotate(45deg);
+    position: relative;
+}
+
+.hamburger-4:hover > div:nth-child(2){
+    background-color: transparent;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%; 
+    background-color: transparent;
+    transform: translate3d(0, -20px, 0);
+}
+.circle:hover {
+    background-color: transparent;
+    border: 5px solid white;
+
+
+}
+
+.hamburger-4:hover > div:nth-child(3){
+    height: 10px;
+    width: 80px;
+    background-color: white;
+    /* border-radius: 100%; */
+    transform: translate3d(0, 30px, 0) rotate(-45deg);
+    position: relative;
+}
+
+
+/* Cat with Image */
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.box > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.75) rotate(0deg);
+    transition: 600ms;
+    transition-timing-function: linear;
+}
+
+.box:hover > img {
+    transform: translate(-50%, -50%) scale(1.0) rotate(-14deg);
+}
+
+
+/* Domo Cat text box */
+.text-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-box > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.75) rotate(0deg);
+    transition: 600ms;
+    transition-timing-function: linear;
+}
+
+.text-box > h4 {
+    position: absolute;
+    background-color: gray;
+    right: -220px;
+    bottom: 0;
+    padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 99%, 5% 50%);
+}
+
+.text-box:hover > h4 {
+    right: -20px;
+    transition: 700ms;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+.text-box:hover > img {
+    transform: translate(-50%, -50%) scale(1.0) rotate(-14deg);
+}
+
+
+/* Domo Cat Price Bubble */
+.price-bubble {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.price{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color:orangered;
+    transform: translate3d(-40px, -40px, 0);
+    transition: 700ms;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+    position: absolute;
+}
+
+.price > h4 {
+    color: green;
+    margin-top: 15px;
+}
+
+.price-bubble:hover > .price {
+    transition: 700ms;
+    transform: translate3d(0px, 0px, 0);
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+
+}
+.banner {
+    position: absolute;
+    background-color: gray;
+    color: #fff;
+    right: -200px;
+    bottom: 0;
+    padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 99%, 5% 50%);
+    transition: 700ms;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.price-bubble:hover > .banner {
+    right: -20px;
+    transition: 700ms;
+    transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
+}
+
+.price-bubble > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0.75) rotate(0deg);
+    transition: 800ms;
+    transition-timing-function: linear;
+}
+
+.price-bubble:hover > img {
+    transform: translate(-50%, -50%) scale(1.0) rotate(-14deg);
+}
